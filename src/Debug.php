@@ -16,6 +16,9 @@ class Debug
     static $logsFolder =  '/debug';
     private static $eol = PHP_EOL;
 
+    /**
+     * Цвета для форматирования в браузере
+     */
     private const COLORS = [
         'number'   => '#ce3f3f',
         'string'   => '#000000',
