@@ -1,0 +1,27 @@
+{
+    "name": "sonar200/debugger",
+    "description": "",
+    "type": "library",
+    "keywords": ["php", "var_dump", "dump"],
+    "homepage": "https://github.com/sonar200/debugger",
+    "license": "MIT",
+    "version": "0.0.5",
+    "authors": [
+        {
+            "name": "Ivan Ivanov",
+            "email": "ivan@sonar200.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-mbstring": "*"
+    },
+    "config": {
+        "bin-dir": "vendor/bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sonar200\\Debugger\\": "src/"
+        }
+    }
+}
