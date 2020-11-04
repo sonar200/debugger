@@ -163,7 +163,7 @@ class Debug
     {
         $type = gettype($var);
 
-        $content = '<pre style="background-color: #ffffff; display: block; margin-top: 5px; border: 1px dotted #cccccc; width: 100%; padding: 5px; font-family: monospace; font-size: 12px; text-align: left;"><table style="border: 0; box-sizing: border-box;">';
+        $content = '<pre style="background-color: #ffffff; display: block; margin-top: 5px; border: 1px dotted #cccccc; width: 100%; padding: 5px; font-family: monospace; font-size: 12px; text-align: left; box-sizing: border-box;"><table style="border: 0;">';
 
         switch (mb_strtolower($type)) {
             case 'boolean':
