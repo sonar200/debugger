@@ -532,7 +532,7 @@ class Debug
      */
     private static function btnCollapse()
     {
-        return self::$debug ? '<button style="width: 15px; height: 20px;" onclick="this.nextSibling.style.display = this.nextSibling.style.display === \'none\' ? \'block\' : \'none\'; this.innerHTML = this.innerHTML === \'+\' ? \'-\' : \'+\';">+</button>' : '';
+        return self::$debug ? '<button style="width: 15px; height: 20px; padding: 0;" onclick="this.nextSibling.style.display = this.nextSibling.style.display === \'none\' ? \'block\' : \'none\'; this.innerHTML = this.innerHTML === \'+\' ? \'-\' : \'+\';">+</button>' : '';
     }
 
 
